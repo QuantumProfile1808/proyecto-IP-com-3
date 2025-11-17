@@ -35,7 +35,7 @@ def step():
             j += 1   
             return {"a": a, "b": b, "swap": False, "done": False}
 
-        # terminó el barrido → pasar a fase swap
+        # terminó el barrido, pasa a la fase swap
         fase = "swap"
         return {"a": min_idx, "b": i, "swap": False, "done": False}
 
