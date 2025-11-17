@@ -1,6 +1,6 @@
 # TP — Visualización de algoritmos de ordenamiento
-matti aeifbauiofvbaobaeuof
-test
+
+hola uri blablabla
 
 ## Objetivos
 - Implementar **Bubble**, **Selection** e **Insertion** cumpliendo el **contrato** `init(vals)` + `step()` que usa la UI.
