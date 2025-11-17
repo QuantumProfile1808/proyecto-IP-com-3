@@ -1,5 +1,7 @@
 # TP — Visualización de algoritmos de ordenamiento
 
+test
+
 ## Objetivos
 - Implementar **Bubble**, **Selection** e **Insertion** cumpliendo el **contrato** `init(vals)` + `step()` que usa la UI.
 - Ver el algoritmo **animado** y **paso a paso** (una operación por llamada a `step`).
