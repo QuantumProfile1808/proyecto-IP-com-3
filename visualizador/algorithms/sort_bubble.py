@@ -15,7 +15,7 @@ def init(vals):
 def step():
     global items, n, i, j
 
-    # 1) Elegir índices a y b a comparar en este micro-paso (según tu Bubble).
+    # 1) Elegir índices a y b a comparar en este micro-paso.
     a = j
     b = j + 1
     swap = False
@@ -25,7 +25,7 @@ def step():
         items[a], items[b] = items[b], items[a]
         swap = True
 
-    # 3) Avanzar punteros (preparar el próximo paso).
+    # 3) Avanzar punteros.
     j += 1
     if j >= n - i - 1:   # fin de la pasada actual
         j = 0
